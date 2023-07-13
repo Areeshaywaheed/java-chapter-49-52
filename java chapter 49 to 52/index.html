@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java chapter 49 to 52</title>
+</head>
+<body>
+    
+   
+        <!-- 1. Create a signup form and display form data in your web 
+        page on submission. -->
+    
+        <h4>Program number 01</h4>
+    
+        <form onsubmit="signupForm();">
+            <input type="text" id="input1" placeholder="Enter your Name"> <br>
+            <input type="password" id="input2" placeholder="Enter your password"> <br>
+            <button>Now Submit</button>
+        </form>
+    
+        <!-- 2. Suppose in your webpage there is content area in which 
+        you have entered your item details, but user can only see 
+        some details on first look. When user clicks on “Read 
+        more” button, full detail of that particular item will be 
+        displayed. -->
+    
+        <h4>Program number 02</h4>
+    
+        <p id="CakeWebsite">
+            I am a web developer and i have made a responsive cake website through html,css,javascript and bootstrap.
+            <a href="JavaScript:void(0)" onclick="inhancePara();"><em>See More</em></a>
+        </p>
+    
+        <!-- 3. In previous assignment you have created a tabular data 
+            using javascript. Let’s modify that. Create a form which 
+            takes student’s details and show each student detail in 
+            table. Each row of table must contain a delete button and 
+            an edit button. On click on delete button entire row should 
+            be deleted. On click on edit button, a hidden form will 
+            appear with the values of that row. -->
+    
+        <h4>Program number 03</h4>
+    
+        <h2>Student Records</h2>
+    
+        <table border="1px" width="100%" style="text-align: center">
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th>Button</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0</td>
+                    <td>John</td>
+                    <td>8th</td>
+                    <td><button onclick="deletedRow(this)">Deleted</button></td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Mark</td>
+                    <td>1oth</td>
+                    <td><button onclick="deletedRow(this)">Deleted</button></td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Leo</td>
+                    <td>9th</td>
+                    <td><button onclick="deletedRow(this)">Deleted</button></td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Joni</td>
+                    <td>10th</td>
+                    <td><button onclick="deletedRow(this)">Deleted</button></td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>Doe</td>
+                    <td>8th</td>
+                    <td><button onclick="deletedRow(this)">Deleted</button></td>
+                </tr>
+                <tr>
+                    <td>05</td>
+                    <td>John</td>
+                    <td>9th</td>
+                    <td><button onclick="deletedRow(this)">Deleted</button></td>
+                </tr>
+                <tr>
+                    <td>06</td>
+                    <td>Mark</td>
+                    <td>10th</td>
+                    <td><button onclick="deletedRow(this)">Deleted</button></td>
+                </tr>
+                <tr>
+                    <td>07</td>
+                    <td>Leo</td>
+                    <td>9th</td>
+                    <td><button onclick="deletedRow(this)">Deleted</button></td>
+                </tr>
+                <tr>
+                    <td>08</td>
+                    <td>Joni</td>
+                    <td>8th</td>
+                    <td><button onclick="deletedRow(this)">Deleted</button></td>
+                </tr>
+                <tr>
+                    <td>09</td>
+                    <td>Doe</td>
+                    <td>1oth</td>
+                    <td><button onclick="deletedRow(this)">Deleted</button></td>
+                </tr>
+            </tbody>
+        </table>
+    
+    
+            
+                 
+ 
+
+
+
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
